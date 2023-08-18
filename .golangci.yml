@@ -4,7 +4,7 @@ linters-settings:
     ignoretests: true
 
   goimports:
-    local-prefixes: github.com/Ink-33/go-heweather
+    local-prefixes: github.com/airplayx/go-heweather
 
   gocritic:
     disabled-checks:
