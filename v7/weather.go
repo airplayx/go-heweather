@@ -18,7 +18,7 @@ func NewRealTimeWeatherClient(location string) (client HeWeatherAPI) {
 // 你需要在 https://dev.heweather.com/docs/api/weather 查询指定的Duration，
 // 如3d，24h
 func NewWeatherForecastClient(location string, duration string) (client HeWeatherAPI, err error) {
-	d := []string{"3d", "7d", "10d", "15d", "24h", "72h", "168h"}
+	d := []string{"3d", "7d", "10d", "15d", "30d", "24h", "72h", "168h"}
 	dr := ""
 	for _, v := range d {
 		if duration == v {
