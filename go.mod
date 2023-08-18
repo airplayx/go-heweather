@@ -1,3 +1,3 @@
-module github.com/Ink-33/go-heweather
+module github.com/airplayx/go-heweather
 
 go 1.17
